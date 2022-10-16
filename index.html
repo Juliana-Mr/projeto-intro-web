@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>- cardápio -</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1 id="titulo">- cardápio -</h1>
+    </header>
+
+
+    <main>
+        <section class="busca">
+            <input  type="text" nome="busca" id="digitar"  style="font-family: Verdana; font-size: 1vw"> 
+            <button type="button" id="botao" onclick="buscarPrato()">Buscar</button>
+        </section>
+
+        <section class="cardapio" id="todosOsPratos">
+            <section class="prato">
+                <img id="risotoimg" src="./fotos/risoto.jpg" alt="">
+                <div class="texto">
+                    <a id="link1" href="https://www.cozinhatecnica.com/2021/12/risoto-de-cogumelos/" target="_blank">
+                        <p>Risoto de cogumelo</p>
+                    </a>
+                    <ul id="risoto">
+                        <li>Ingredientes: Arroz arbório, cogumelos, aspargos na manteiga, pesto de manjericão</li>
+                        <li>Preço: R$35,00</li>
+                        <li>Vegetariano: sim</li>
+                        <li>Sem glútem: sim</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="prato">
+                <img id="frangoimg" src="./fotos/coqauvin.png" alt="">
+                <div class="texto">
+                    <a id="link2" href="https://www.divinho.com.br/blog/coq-au-vin/" target="_blank">
+                        <p>Frango no vinho</p>
+                    </a>
+                    <ul id="frango">
+                        <li>Ingredientes: Frango, vinho tinto, purê de batata</li>
+                        <li>Preço: R$45,00</li>
+                        <li>Vegetariano: não</li>
+                        <li>Sem glúten: não</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="prato">
+                <img id="feijaoimg" src="./fotos/cassoulet.png" alt="">
+                <div class="texto">
+                    <a id="link3" href="https://www.360meridianos.com/especial/cassoulet-franca" target="_blank">
+                        <p>Sopa de feijão</p>
+                    </a>
+                    <ul id="feijao">
+                        <li>Ingredientes: Feijão branco, carne de porco, defumados</li>
+                        <li>Preço: R$45,00</li>
+                        <li>Vegetarino: não</li>
+                        <li>Sem glúten: sim</li>
+                    </ul>
+                </div>
+            </section>
+        </section>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>Criado por: Juliana Marques do Santos</p>
+        <a id="link4" href="https://github.com/Juliana-Mr" target="_blank">
+            <p>Link para GitHub.</p>
+        </a>
+    </footer>
+</body>
+
+</html>
